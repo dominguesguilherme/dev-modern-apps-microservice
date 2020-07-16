@@ -43,5 +43,15 @@ Repositório para anotações do curso - Desenvolvimento de Aplicações Moderna
 ### Distribuição de responsabilidades
 
 ![image](distribuicao-responsabilidade.png)
+ 
+### Escala horizontal (Aplicação monolitica)
+- Ter imagens/containers
+- Ser facilmente reconstruido.
+- Ter suas responsabilidades (incluindo assets)
 
-- 
+
+***Quando uma aplicação monolitica deixa de valer a pena?***
+- Times grandes, geram conflitos gigantescos, é alterado alguma parte do código que influência outra
+- Necessidade de escalar todo o sistema por conta de uma unica área que esteja com pico de utilização
+- Risco de um deploy completo começa a se elevar (qualquer alteração em uma ponta afeta a outra. "Será que vale a pena fazer o deploy por conta de uma alteração pequena?")
+- Necessidade de utilizar tecnologias diferentes
