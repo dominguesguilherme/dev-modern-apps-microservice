@@ -41,4 +41,7 @@ Repositório para anotações do curso - Desenvolvimento de Aplicações Moderna
 > Tudo pode ser criado e destruido facilmente
 
 ### Distribuição de responsabilidades
-![image]()
+
+![image](distribuicao-responsabilidade.png)
+
+- 
